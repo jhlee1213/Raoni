@@ -20,6 +20,3 @@ get_density<- function(x, y, n = 100) {
 mean0<-function(v)mean(na.omit(v))
 
 sum0<-function(v)sum(na.omit(v))
-
-library(moments)
-skew0<-function(v)skewness(na.omit(v))
