@@ -1,7 +1,5 @@
 \name{skew0}
 \alias{skew0}
-\alias{mean0}
-\alias{sd0}
 \title{
   mean, sd, skewness with na.omit
 }
