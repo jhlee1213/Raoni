@@ -2,8 +2,8 @@
 Floor<-function(v,digits=0){tmp<-v*10^digits; v1<-floor(tmp)/10^digits; return(v1)}
 
 Round<-function(v,digits=0){
-  posneg = sign(x)
-  z = abs(x)*10^digits
+  posneg = sign(v)
+  z = abs(v)*10^digits
   z = z + 0.5
   z = trunc(z)
   z = z/10^digits
