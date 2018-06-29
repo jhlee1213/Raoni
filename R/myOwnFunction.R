@@ -1,4 +1,8 @@
-Floor<-function(v,digits=0){tmp<-v*10^digits; v1<-floor(tmp)/10^digits; return(v1)}
+Floor<-function(v,digits=0){
+  tmp<-v*10^digits
+  v1<-floor(tmp)/10^digits
+  v1
+}
 
 Round<-function(v,digits=0){
   posneg = sign(v)
