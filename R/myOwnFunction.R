@@ -1,4 +1,3 @@
-
 Floor<-function(v,digits=0){tmp<-v*10^digits; v1<-floor(tmp)/10^digits; return(v1)}
 
 Round<-function(v,digits=0){
@@ -21,3 +20,6 @@ get_density<- function(x, y, n = 100) {
 mean0<-function(v)mean(na.omit(v))
 
 sum0<-function(v)sum(na.omit(v))
+
+library(moments)
+skewness0<-function(v)skewness(na.omit(v))
