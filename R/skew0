@@ -1,4 +1,4 @@
-if(!is.element(mypkg, installed.packages()[,1])){install.packages("moments")}
+if(!is.element("moments", installed.packages()[,1])){install.packages("moments")}
 library(moments)
 
 skew0<-function(v)skewness(na.omit(v))
